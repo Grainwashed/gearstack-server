@@ -1,16 +1,14 @@
 {
   "name": "gearstack-estate-server",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Proxy server for GearStack estate sale scraping",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0",
-    "express": "^4.18.2",
-    "node-fetch": "^2.7.0"
+    "express": "^4.18.2"
   },
   "engines": {
     "node": ">=18.0.0"
